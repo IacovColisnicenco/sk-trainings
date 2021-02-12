@@ -1,0 +1,50 @@
+body{
+    background-color: #f5f5f5;
+}
+:focus {
+    outline:none;
+}
+::-moz-focus-inner {
+    border:0;
+}
+header, footer{
+    text-align: center;
+}
+
+article header > h1 {
+    color: #555;
+    font-size: 1.8em;
+}
+
+.lorem__text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em; /*24px*/
+    font-weight: 500; /*Medium 500*/
+    line-height: 1.4em;
+    letter-spacing: 0.05em;
+    text-align: justify;
+    color: #81a140;
+}
+
+.social__links a:link {
+color: #555;
+font-size: 2em;
+}
+footer > section.social__links a.facebook-brand__color:hover {
+    color: #3b5998;
+}
+footer > section.social__links a.youtube-brand__color:hover {
+    color: #FF0000;
+}
+footer > section.social__links a.instagram-brand__color:hover {
+    color: #405DE6;
+}
+footer > section.social__links a.pinterest-brand__color:hover {
+    color: #bd081c;
+}
+
+footer{
+    margin-top: 25%;
+}
+
+
