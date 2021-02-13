@@ -1,27 +1,49 @@
         body {
             background-color: #f9f9f9;
+            
         }
-        
+
         .lorem__text p {
             font-family: 'Roboto', sans-serif;
             font-size: 20px;
             text-transform: uppercase;
             color: #333;
         }
-        
-        section.lorem__text,
-        p::before,
-        p::after {
+
+        section.lorem__text, p::before, p::after {
             font-family: 'Lato', sans-serif;
             /* 20px x 1.5 = 30px */
             font-size: 30px;
             color: #949247;
         }
-        
+
         section.lorem__text p::before {
             content: "\00ab";
         }
-        
+
         section.lorem__text p::after {
             content: "\00bb";
+        }
+
+        h2:first-of-type {
+            font-family: 'Roboto', serif;
+            font-size: 1.5em;
+            color: #333;
+            
+        }
+
+        ul:nth-child(n+1) {
+            list-style-type: square;
+            font-family: 'Roboto', serif;
+            font-weight: 500;
+            font-size: 1.15em;
+            color: #222;
+        }
+
+        li:first-of-type {
+            color: #e92064;
+        }
+
+        li:last-of-type {
+            color: #4caf50;
         }
