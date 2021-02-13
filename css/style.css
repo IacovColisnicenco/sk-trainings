@@ -1,0 +1,27 @@
+        body {
+            background-color: #f9f9f9;
+        }
+        
+        .lorem__text p {
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+            text-transform: uppercase;
+            color: #333;
+        }
+        
+        section.lorem__text,
+        p::before,
+        p::after {
+            font-family: 'Lato', sans-serif;
+            /* 20px x 1.5 = 30px */
+            font-size: 30px;
+            color: #949247;
+        }
+        
+        section.lorem__text p::before {
+            content: "\00ab";
+        }
+        
+        section.lorem__text p::after {
+            content: "\00bb";
+        }
