@@ -1,0 +1,21 @@
+ul:first-child {
+    width: 500px;
+    color: #333;
+}
+
+li:nth-child(n) {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 5px 5px 0;
+    background-color: #eeeeee;
+    border: 1px solid #999;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+}
+li:nth-child(3) {
+    background-color: #ccffaa;
+}
+li:nth-last-child(1) {
+    background-color: #ccffaa;
+}
