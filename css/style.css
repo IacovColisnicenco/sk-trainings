@@ -1,0 +1,29 @@
+body {
+
+    background-color: #000;
+}
+
+:root {
+
+    --size-div: 600px;
+}
+div {
+
+    width: var(--size-div);
+    overflow: visible;
+}
+p {
+    width: 200px;
+}
+div img {
+
+    width: var(--size-div);
+    height: 250px;
+    object-fit: cover;
+}
+@media only screen and (max-width: 600px){
+
+  body {
+        background-color: yellow;
+  }
+}
