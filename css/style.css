@@ -1,0 +1,30 @@
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background: #003366;
+}
+
+.box-rotation__block {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ddd;
+    opacity: .5;
+    background: #335c85;
+    animation: rotation 1s infinite;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(-360deg);
+    }
+    25% {
+        transform: rotate(-360deg);
+    }
+    50% {
+        transform: rotate(-360deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
