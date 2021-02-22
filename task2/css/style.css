@@ -1,0 +1,23 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    background-color: rgb(233, 223, 223);
+    position: relative;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 4px;
+    width: 25%;
+    font-size: 1.5em;
+}
+
+.box ul {
+    list-style-type: none;
+}
+.box ul > li:before {
+content: '\25B2';
+padding-right: 3px;
+color: #49007d;
+}

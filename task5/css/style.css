@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    position: relative;
+    width: 650px;
+    height: 175px;
+    margin: auto;
+    background-image: linear-gradient(to bottom, #697b85, #51656e);
+   
+}
+
+.box ul {
+    list-style-type: none;
+    text-transform: uppercase;
+    
+}
+.box li {
+
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-weight: 700; 
+    font-size: 55px;
+    color: #72848e;
+    padding: 15px;
+    padding-right: 25px;
+    text-align: center;
+    text-shadow: 4px 4px 10px #121213;
+ 
+    
+    
+}

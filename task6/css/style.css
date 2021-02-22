@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* pricing */
+
+.pricing {
+    position: relative;
+    width: 1440px;
+    height: 738px;
+}
+
+.pricing header>h1.title {
+    position: absolute;
+    height: 48px;
+    left: 165px;
+    right: 545px;
+    top: 140px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    /* identical to box height, or 133% */
+    color: #091133;
+}
+
+.body {
+    position: absolute;
+    height: 52px;
+    left: 165px;
+    right: 545px;
+    top: 204px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    color: #6F7CB2;
+}
+
+.pricing-card {
+    position: absolute;
+    left: 64.24%;
+    right: 11.46%;
+    top: 45.53%;
+    bottom: 18.97%;
+}
+
+.price {
+    position: absolute;
+    height: 48px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    /* identical to box height, or 133% */
+    color: #37447E;
+}
+
+div.pricing-card h2 {
+    position: absolute;
+    height: 32px;
+    left: 0px;
+    right: 0px;
+    top: 64px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    /* identical to box height, or 145% */
+    color: #091133;
+}
+
+.text {
+    position: absolute;
+    height: 102px;
+    left: 0px;
+    right: 0px;
+    top: 104px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    color: #5D6970;
+}
+
+.button {
+    position: absolute;
+width: 189px;
+height: 26px;
+left: 0px;
+bottom: 0px;
+
+/* Button Label */
+
+
+position: absolute;
+height: 18px;
+left: 0px;
+right: 0px;
+top: calc(50% - 18px/2);
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+text-align: center;
+
+color: #FFFFFF;
+
+/* BG */
+
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+background: #111B47;
+border-radius: 2px;
+}
+
+

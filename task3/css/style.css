@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    position: relative;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    border-left: 3px solid black;
+    border-right : 3px solid black;
+    border-radius: 4px;
+    padding: 15px;
+    color: azure;
+    background-color: rgb(204, 162, 162);
+}
