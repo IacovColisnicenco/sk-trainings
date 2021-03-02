@@ -1,0 +1,85 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    height: auto;
+    background-color: #f4f4f4;
+    flex-flow: row wrap;
+    padding: 15px;
+}
+
+.logo {
+    width: 33.3%;
+    padding-left: 5%;
+    flex-grow: 1;
+    align-self: baseline;
+}
+
+.search-icon {
+    flex-grow: 1;
+    width: 33.3%;
+    align-self: baseline;
+    text-align: center;
+}
+
+.menu-icon {
+    flex-grow: 1;
+    width: 33.3%;
+    align-self: baseline;
+    text-align: right;
+    padding-right: 5%;
+}
+
+/* .section-brand__flex {
+
+    display: flex;
+    width: 100%;
+    margin: auto;
+    height: auto;
+    background-color: #f4f4f4;
+    font-family: 'Fira Sans', sans-serif;
+    flex-flow: row wrap;
+
+} */
+
+.branding {
+    flex-grow: 0;
+    width: 47%;
+    padding-left: 5%;
+    text-align: left;
+    padding-top: 50px;
+}
+
+.branding h1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+    /* or 117% */
+    
+    letter-spacing: -1px;
+    
+    /* Black */
+    
+    color: #222222;
+
+} 
+
+
+.social {
+    flex-grow: 0;
+    width: 30%;
+    padding-left: 5%;
+    text-align: right;
+    padding-top: 50px;
+
+}
