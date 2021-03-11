@@ -1,6 +1,2 @@
-*.avi
-*.mp4
-video
-log
-example.doc
-.vscode/
+node_modules
+*.log
