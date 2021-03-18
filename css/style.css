@@ -53,3 +53,14 @@ header>nav div:nth-child(3) {
     flex-basis: 5%;
     padding-right: 5%;
 }
+
+h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+    /* or 117% */
+    letter-spacing: -1px;
+    /* Black */
+    color: #222222;
+}

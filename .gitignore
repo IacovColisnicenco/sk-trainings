@@ -4,3 +4,4 @@ video
 log
 example.doc
 .vscode/
+node_modules/
