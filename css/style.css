@@ -14,7 +14,7 @@ body {
     background-color: #e5e5e5;
 }
 
-header, main, footer {
+/* header, main, footer {
     margin: 0 auto;
     max-width: 80%;
     background-color: #f4f4f4;
@@ -55,12 +55,35 @@ header>nav div:nth-child(3) {
 }
 
 h1 {
+    margin: 0px;
     font-style: normal;
     font-weight: bold;
     font-size: 60px;
     line-height: 70px;
-    /* or 117% */
+ 
     letter-spacing: -1px;
-    /* Black */
+ 
     color: #222222;
 }
+
+section.first_section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: start;
+    align-content: flex-start;
+
+}
+
+.item_title {
+
+    flex-basis: 50%;
+    flex-grow: 1;
+}
+.social_icons {
+
+    flex-basis: 25%;
+}
+
+ */
